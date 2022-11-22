@@ -1,0 +1,32 @@
+footer{
+    background-color: #023877;
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+}
+
+p{
+    color: #fff;
+}
+
+.footer{
+    padding: 30px;
+    height: auto;
+    width: auto;
+   
+
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    gap: 25px;
+}
+
+#borde{
+    border-bottom: 2px solid #fff;
+    margin-left: -300px;
+}
+
+#derechos{
+    margin-left: 300px;
+    margin-top: -20px;
+}

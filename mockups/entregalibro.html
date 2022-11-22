@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entregar Libros</title>
+    <link rel="stylesheet" href="../css/entregar.css">
+    <link rel="stylesheet" href="../css/navegacion.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/img.css">
+
+</head>
+<body>
+    
+    <div class="container__menu">
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="../interfaz.html"></a></li>
+                    <li><a href="#">Bocetos</a>
+                        <ul>
+                            <li><a href="../mockups/crearlibro.html">Crear Libros</a></li>
+                            <li><a href="#">Entregar Libros</a></li>
+                            <li><a href="../mockups/solicitarlibro.html">Solicitar Libros</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contactos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="crear">
+            <img class="libro"src="../imagenes/entregalibro.png" alt="">
+        </div>
+        <div class="imgusuario">
+            <img id="usuario" src="../imagenes/usuario.png" alt="">
+        </div>
+        <div>
+            <form action="">
+                <table>
+                    <!-- Nombre del usuario -->
+                <tr>
+                    <td class="nombreusuario">
+                        <label for="">Adrián Herrera</label>
+                    </td>
+                </tr>
+                <!-- Salir -->
+                <tr>
+                    <td >
+                        <a class="botonsalir" href="../Index.html">Salir</a>
+                    </td>
+                </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+
+    <div class="box">
+        <label class="documento" for="">Número de documento del usuario</label>
+
+        <input type="text" name="search" placeholder="Buscar" class="src" autocomplete="off">
+    </div>
+
+    <div id="activousu">
+        <h3>Usuario activo</h3>
+        <p id="linea">_______________</p>
+    </div>
+    
+    <fieldset class="listado">
+        <legend id="legend">Listado de libros</legend>
+    <div class="formulario">
+        <form action="">
+            <table id="letra">
+                <tr>
+                   <td class="fila">
+                    <label for=""><h3>Títulos</h3></label>
+                   </td> 
+                   <td  class="fila">
+                    <label for=""><h3>ISBN</h3></label>
+                   </td class="fila">
+                   <td>
+                    <label for=""><h3>Disponible para</h3></label>
+                   </td>
+                </tr>
+                
+                <tr>
+                    <td class="fila">
+                        <label for="">Guía práctica de bases de datos</label>
+                    </td> 
+                    <td  class="fila">
+                        <label for="">6-789-23-56-7</label>
+                    </td >
+                    <td class="fila3">
+                        <label for="">Sala</label>
+                    </td>
+                    <td id="filault">
+                        <label for="">Entregar</label>
+                        <p id="linea">________</p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="fila">
+                        <label for="">Bases de datos NoSQL</label>
+                    </td> 
+                    <td  class="fila">
+                        <label for="">2-445-23-5-223</label>
+                    </td >
+                    <td class="fila3">
+                        <label for="">Sala</label>
+                    </td>
+                    <td id="filault">
+                        <label for="">Entregar</label>
+                        <p id="linea">________</p>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+
+    </fieldset>
+    
+    
+
+
+
+
+
+    <footer>
+        <div class="footer">
+            <img id="biblioteca" src="../imagenes/bibliotecaEstruc.png" alt="">
+
+            <div id="borde">
+                <p>Dirección: Carrera 8  No. 20 - 59 Tunja - Boyacá - Colombia </p>
+                <p>Telefono: +57 313 278 0601</p> 
+                <p>Email: biblioinfo@gmail.com</p>
+                <p>Atención Ciudadana Términos y condiciones de uso</p>
+            </div>
+            <p id="derechos"> © Todos los derechos reservados</p>
+        </div>
+    </footer>
+
+</body>
+</html>

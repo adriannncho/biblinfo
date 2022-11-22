@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(../imagenes/biblioteca.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content_login{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 200px;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+  
+h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+  
+.controls {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+    color: white;
+}
+  
+p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+  
+a{
+    color: white;
+    text-decoration: none;
+}
+  
+#botons{
+    width: 40%;
+    background: #1f53c5;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+#nombrelog{
+    width: 400px;
+    height: 200px;
+    margin-bottom: -200px;
+    margin-left: 50px;
+} 

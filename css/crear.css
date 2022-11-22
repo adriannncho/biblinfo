@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background: #5D6D7E ;
+}
+
+
+.container{
+    padding: 30px;
+    height: auto;
+    width: auto;
+   
+
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+}
+
+.nombreusuario{
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.botonsalir{
+    background-color: #E5E5E5;
+    color: #000;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.imgusuario{
+    margin-left: 400px;
+}
+
+.formulario{
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tabla{
+    border-radius: 4px;
+    width: 800px;
+    height: auto;
+    background: #24303c;
+    padding: 20px;
+    box-shadow: 7px 13px 37px #000;
+}
+
+
+.control{
+    width: 100%;
+    background-color: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-size: 18px;
+    color: #fff;
+}
+
+.letra{
+    padding-left: 15px;
+    color: #fff;
+    font-size: 18px;
+}
+
+#crear{
+    color: #fff;
+    font-size: 35px;
+}
+
+#guardar{
+    width: 60%;
+    background: #1f53c5;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.biblio{
+    width: 200px;
+    height: 100px;
+}
+
+.libro{
+    margin-top: -50px;
+}

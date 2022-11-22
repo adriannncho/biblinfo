@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background: #5D6D7E ;
+}
+
+.container{
+    padding: 30px;
+    height: auto;
+    width: auto;
+   
+
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+}
+
+.nombreusuario{
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: #fff;
+}
+
+.botonsalir{
+    background-color: #E5E5E5;
+    color: #000;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.imgusuario{
+    margin-left: 400px;
+}
+
+.buslibro{
+    color: #fff;
+    padding: 10px;
+    padding-right: 15px;
+    margin-left: 100px;
+    font-size: 18px;
+}
+
+.box{
+    color: #fff;
+    padding: 10px;
+    padding-right: 15px;
+    font-size: 18px;
+    position: absolute;
+}
+
+.box  input{
+    color: #fff;
+    padding: 10px;
+    padding-right: 15px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+input.src{
+    padding: 10px 10px 9px 32px;
+    outline: none;
+    font-size: 14px;
+    border-radius: 15px;
+    color: #444;
+    border: 3px solid #fff;
+    background: #fff url(../imagenes/lupa.png) no-repeat 9px center;
+    width: 500px;
+}
+
+.libro{
+    margin-top: -50px;
+}
+
+.letra{
+    color: #fff;
+    padding: 15px;
+    border-collapse: collapse;
+    background: #24303c;
+    box-shadow: 7px 13px 37px #000;
+    margin-top: 150px;
+}
+
+.filas{
+    padding: 10px;
+    border-right: 3px solid #fff;
+    border-left: 3px solid #fff;
+    border-collapse: collapse;
+}
+
+
+table.letra tbody tr:nth-child(even){
+    background: #21618C;
+}
+
+#margentop{
+    border-top: 3px solid #fff;
+}
+
+#margenaba{
+    border-bottom: 3px solid #fff;
+}
+
+.container2{
+    margin-top: -20px;
+    margin-bottom: -50px;
+    height: auto;
+    width: auto;
+   
+
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto;
+    gap: 50px;   
+}
+
+.contenido{
+    margin-top: 80px;
+    margin-left: -30px;
+}
+
+.filaacciones{
+    padding: 21px;
+}
+
+#accion{
+    margin-top: 70px;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.color{
+    color: #fff;
+    padding-top: 15px;
+}
+
+.autores{
+    padding: 10px;
+    border-right: 3px solid #fff;
+    border-left: 3px solid #fff;
+    border-collapse: collapse;
+    width: 150px;
+}
+
+.paginas{
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: -100px;
+}
+.numeropagina{
+    color: #fff;
+    padding: 10px;
+}
